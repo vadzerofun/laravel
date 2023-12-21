@@ -1,0 +1,116 @@
+body {
+   background-color: #B5C2CA;
+}
+
+/* Sidebar */
+.sidebar {
+   background-color: #F0F3F4;
+   border: 5px solid #D6DDE1;
+   border-radius: 20px;
+   padding: 30px 20px;
+}
+.sidebar-logo {
+   padding-left: 20px;
+   display: flex;
+   gap: 1rem;
+   text-decoration: none;
+   cursor: pointer;
+}
+.sidebar-logo-text {
+   font-weight: 700;
+   margin-bottom: 0;
+   color: #081225;
+}
+.sidebar-top-splitter {
+   margin: 30px 0 20px;
+   border: 1px solid #D6DDE1;
+   
+}
+
+.sidebar-menu {
+   
+}
+.sidebar-menu-list {
+   color: #525966;
+   list-style: none;
+   padding-left: 0;
+   display: grid;
+   row-gap: 0.5rem;
+}
+.sidebar-menu-item a {
+   display: flex;
+   align-items: center;  
+   color: #525966; 
+   text-decoration: none;
+   gap: 1rem;
+   padding: 1rem 20px;
+   cursor: pointer;
+   border-radius: 30px;
+}
+.sidebar-menu-item a:hover {
+   background-color: #919db3;   
+   color: #fff !important;
+}
+.active-item {
+   background-color: #081225;   
+   color: #fff !important;
+}
+
+/* Services */
+.services{
+   display: grid;
+   margin-top: 40px;
+   row-gap: 2rem;
+}
+.services-item{
+   display: flex;
+   align-items: center;
+   gap: 1rem;
+}
+.services-icon{
+   
+}
+.services-text{
+   text-align: justify;
+}
+.services-text p:last-child {
+   margin-bottom: 0;
+}
+
+/* Delivery */
+.delivery{
+   display: grid;
+   row-gap: 1rem;
+   padding-left: 0;
+   margin-bottom: 0;
+}
+.delivery-item,
+.delivery-item-link{
+   display: flex;
+   align-items: center;
+   gap: 1rem;   
+   color: #081225;
+}
+.delivery-item-link {
+   padding: 0.5rem 0;
+   cursor: pointer;
+}
+.delivery-item-icon{
+
+}
+.delivery-item-content{
+
+}
+
+/* Custom Bootstrap */
+.card,
+.btn,
+.modal-content {
+   border-radius: 20px;
+}
+.table {
+   margin: 0;
+}
+.navbar {
+   background-color: #ffffff42;
+}

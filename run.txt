@@ -1,0 +1,3 @@
+cd domains
+cd firstlara
+php artisan serve

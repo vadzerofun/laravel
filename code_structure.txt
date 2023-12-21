@@ -1,0 +1,95 @@
+1) $db;
+         *orders
+            ->id  ->name   ->created_at   ->updated_at
+         *clients
+            ->id  ->name   ->created_at   ->updated_at
+         *roles
+            ->id  ->name   ->created_at   ->updated_at
+         *statuses
+            ->id  ->name   ->created_at   ->updated_at
+         *payments
+            ->id  ->name   ->created_at   ->updated_at
+         *countries
+            ->id  ->name   ->created_at   ->updated_at
+         *departments
+            ->id  ->name   ->created_at   ->updated_at
+         *rules
+            ->id  ->name   ->created_at   ->updated_at
+         *settings
+            ->id  ->name   ->created_at   ->updated_at
+
+         + others
+
+2) mvc
+   controller
+      OrderController         php artisan make:controller OrderController --resource
+      ClientController        php artisan make:controller ClientController --resource
+      RoleController          php artisan make:controller RoleController --resource
+      StatusController        php artisan make:controller StatusController --resource
+      PaymentController       php artisan make:controller PaymentController --resource 
+      CountryController       php artisan make:controller CountryController --resource 
+      DepartmentController    php artisan make:controller DepartmentController --resource 
+      RuleController          php artisan make:controller RuleController --resource 
+      SettingController       php artisan make:controller SettingController --resource
+      
+      
+
+   model
+      Order
+      Client
+      Role
+      Status
+      Payment
+      Country
+      Department
+      Rule
+      Setting
+   
+   view
+      order/
+         order.blade.php
+         order.create.blade.php
+         order.edit.blade.php        
+      client/
+         client.blade.php
+         client.create.blade.php
+         client.edit.blade.php  
+      role/
+         role.blade.php
+         role-create.blade.php
+         role-edit.blade.php 
+      status/
+         status.blade.php
+         status-create.blade.php
+         status-edit.blade.php 
+      payment/
+         payment.blade.php
+         payment-create.blade.php
+         payment-edit.blade.php
+      country/
+         country.blade.php
+         country-create.blade.php
+         country-edit.blade.php
+      department/
+         department.blade.php
+         department-create.blade.php
+         department-edit.blade.php
+      rule/
+         rule.blade.php
+         rule-create.blade.php
+         rule-edit.blade.php
+      setting/
+         setting.blade.php
+         setting-create.blade.php
+         setting-edit.blade.php
+
+   route
+      order
+      client
+      role
+      status
+      payment
+      country
+      department
+      rule
+      setting
